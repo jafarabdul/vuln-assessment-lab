@@ -1,0 +1,15 @@
+# Catatan: alamat IP LAN dan IPv6 link-local disensor; baris lain tidak diubah dari output asli (sudo ss -ulpn).
+State  Recv-Q Send-Q                      Local Address:Port  Peer Address:PortProcess                                   
+UNCONN 0      0                                 0.0.0.0:48493      0.0.0.0:*    users:(("python3",pid=9102,fd=9))        
+UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=422,fd=18))
+UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=422,fd=16))
+UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*    users:(("chronyd",pid=1618,fd=4))        
+UNCONN 0      0                            [IP-LAN-DISENSOR]:3702       0.0.0.0:*    users:(("python3",pid=9102,fd=10))       
+UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("python3",pid=9102,fd=8))        
+UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=1536,fd=12))  
+UNCONN 0      0                                   [::1]:323           [::]:*    users:(("chronyd",pid=1618,fd=5))        
+UNCONN 0      0      [IPv6-LINK-LOCAL-DISENSOR]%wlp3s0:546           [::]:*    users:(("NetworkManager",pid=1676,fd=24))
+UNCONN 0      0      [IPv6-LINK-LOCAL-DISENSOR]%wlp3s0:3702          [::]:*    users:(("python3",pid=9102,fd=13))       
+UNCONN 0      0                        [ff02::c]%wlp3s0:3702          [::]:*    users:(("python3",pid=9102,fd=11))       
+UNCONN 0      0                                    [::]:5353          [::]:*    users:(("avahi-daemon",pid=1536,fd=13))  
+UNCONN 0      0                                       *:38806            *:*    users:(("python3",pid=9102,fd=12))       
