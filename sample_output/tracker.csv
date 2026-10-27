@@ -1,3 +1,3 @@
 host,port,protocol,service,version,cve,cvss,severity,first_seen,due_date,status,breach,days_overdue,notes
-127.0.0.1,631,tcp,ipp,CUPS 2.4,CVE-2024-47850,7.5,High,2026-10-27,2026-11-26,Resolved (not in latest scan),NO,0,Temuan dari CUPS server lokal
-127.0.0.1,631,tcp,ipp,CUPS 2.4,CVE-2022-26691,7.2,High,2026-10-27,2026-11-26,False Positive,NO,0,"Distro Ubuntu sudah melakukan backport patch untuk versi CUPS ini, sehingga tidak rentan."
+127.0.0.1,631,tcp,ipp,CUPS 2.4,CVE-2024-47850,7.5,High,2026-10-27,2026-11-26,False Positive,NO,0,"CVE terkait komponen cups-browsed (versi 2.1.1-0ubuntu3), bukan cupsd di TCP 631, dan tidak berdampak aktif."
+127.0.0.1,631,tcp,ipp,CUPS 2.4,CVE-2022-26691,7.2,High,2026-10-27,2026-11-26,False Positive,NO,0,Banner Nmap hanya menampilkan CUPS 2.4 tanpa nomor patch. Versi terpasang 2.4.16 lebih baru dari versi perbaikan 2.4.2.
