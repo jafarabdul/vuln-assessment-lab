@@ -1,0 +1,12 @@
+● cups-browsed.service - Make remote CUPS printers available locally
+     Loaded: loaded (/usr/lib/systemd/system/cups-browsed.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-10-27 10:50:04 WIB; 45min ago
+ Invocation: 393ae9f776ea4df8a58b36eb1d0f3918
+   Main PID: 2350 (cups-browsed)
+      Tasks: 4 (limit: 23193)
+     Memory: 8.6M (peak: 9.3M)
+        CPU: 68ms
+     CGroup: /system.slice/system-cups.slice/cups-browsed.service
+             └─2350 /usr/sbin/cups-browsed
+
+Oct 27 10:50:04 jafar-X456UR systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
